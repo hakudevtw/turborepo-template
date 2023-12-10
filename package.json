@@ -1,5 +1,5 @@
 {
-  "name": "drawmind",
+  "name": "",
   "private": true,
   "scripts": {
     "build": "turbo build",
