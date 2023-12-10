@@ -17,8 +17,10 @@
     "target": "es5",
     "paths": {
       "@/*": ["./*"],
-      "@repo/ui/*": ["../../packages/ui/*"],
-      "@repo/hooks/*": ["../../packages/hooks/*"]
+      "@repo/ui/*": ["../../packages/ui/lib/components/ui/*"],
+      "@repo/ui/utils": ["../../packages/ui/lib/utils.ts"],
+      "@repo/hooks": ["../../packages/hooks/src/index.ts"],
+      "@repo/data-access": ["../../packages/data-access/src/index.ts"]
     }
   },
   "include": ["src", "next-env.d.ts"],
