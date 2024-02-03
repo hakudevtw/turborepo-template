@@ -9,7 +9,6 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@repo/hooks": "workspace:*",
     "@repo/ui": "workspace:*",
     "axios": "^1.6.2",
     "next": "^14.0.3",

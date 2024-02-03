@@ -2,5 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("@repo/ui/globals.css");
+
 @layer utilities {
 }
